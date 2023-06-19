@@ -1,0 +1,223 @@
+.container-menu {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+@media screen and (max-width: 1000px) {
+  .container-logo {
+    /* margin-top: 150px; */
+    width: 20% !important;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .container-logo {
+    /* margin-top: 150px; */
+    width: 25% !important;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .container-logo {
+    /* margin-top: 150px; */
+    width: 35% !important;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container-logo {
+    /* margin-top: 150px; */
+    width: 40% !important;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+}
+
+.container-slider {
+  position: relative;
+  min-height: 80vh;
+  background-image: url("../../assets/CSpace_Landing-Hero_050423_Aiport-scaled.jpg");
+  object-fit: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1000;
+}
+.container-slider > a {
+  color: white;
+  position: absolute;
+  top: 90% !important;
+  left: 50%;
+}
+.container-section-1 {
+  margin-bottom: 50px;
+}
+.container-text {
+  width: 75%;
+  padding: 10px;
+  margin-left: 20% !important;
+  position: absolute;
+  top: 45% !important;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.container-text > h3 {
+  font-size: 2.5em;
+  line-height: 72px;
+  color: white;
+}
+.container-text > p {
+  margin-top: 25px;
+  font-size: 24px;
+  color: white;
+}
+
+.section-container-text {
+  margin-top: 100px;
+  margin-left: 20%;
+  width: 75%;
+  /* border: solid 2px red; */
+}
+.section-container-text > h3 {
+  font-size: 48px;
+  color: black;
+}
+.section-container-text > p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: black;
+  margin-bottom: 30px;
+}
+/*  SECTION - 2 */
+
+.container-section-2 {
+  display: flex;
+  background-color: black;
+  padding: 100px;
+  margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container-gif-section-2 {
+  display: flex;
+  justify-content: flex-end;
+}
+@media screen and (max-width: 1050px) {
+  .container-section-2 {
+    display: flex;
+    background-color: black;
+    padding: 50px;
+    margin: 0 auto !important;
+    justify-content: center !important;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container-text-scetion-2 {
+    width: 100% !important;
+    color: white;
+  }
+  .container-gif-section-2 {
+    display: flex;
+    justify-content: center !important;
+    width: 100% !important;
+    margin: 0 auto;
+  }
+  .container-gif-section-2 > img {
+    width: 100% !important;
+  }
+}
+.container-text-scetion-2 {
+  width: 50%;
+  color: white;
+}
+.container-gif-section-2 {
+  width: 50%;
+}
+.container-gif-section-2 > img {
+  /* width: 100%; */
+}
+.container-text-scetion-2 > h3 {
+  font-size: 48px;
+}
+.container-text-scetion-2 > p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 40px;
+  width: 70%;
+}
+
+/*  SECTION - 2 */
+/*  SECTION - 3*/
+.container-section-3 {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 150px;
+}
+.container-text-section-3 {
+  width: 70%;
+}
+.container-text-section-3 > h3 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 1050px) {
+  .container-grid {
+    padding-top: 30px !important;
+    display: flex;
+    margin: 0 auto !important;
+    justify-content: center !important;
+    align-items: center;
+    flex-direction: column;
+  }
+  .card-grid {
+    width: 90% !important;
+  }
+}
+/*  SECTION - 3*/
+/*  SECTION - 4*/
+.container-section-4 {
+  background-color: #2196f3;
+  margin: 0 auto;
+  padding: 100px;
+}
+.container-section-4 > div {
+  background-color: #2196f3;
+  display: flex;
+  justify-content: center;
+}
+
+/*  SECTION - 4*/
+/*  SECTION - 5*/
+.container-section-5 {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 150px;
+}
+
+/*  SECTION - 5*/
+
+.container-footer {
+  background-color: black;
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
